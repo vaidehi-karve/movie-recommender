@@ -21,7 +21,7 @@ Here is a brief overview of each of the three movie recommendation systems.
 ### Demographic Filtering
 Demographic filtering is the least personalized of all recommendation systems. It  
 
-## Content-based Filtering
-
+### Content-based Filtering
+Content-based filtering is
 
 ### Collaborative Filtering
