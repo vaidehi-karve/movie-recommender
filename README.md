@@ -23,6 +23,7 @@ Demographic filtering is the most straight-forward of the recommendation systems
 Content-based filtering recommends similar products based on users' past histories or their direct queries. For instance, people who have watched many action movies  typically like other films of the same genre - or if they prefer watching movies in a specific collection, or with certain actors or directors, or even user-entered keywords into a search bar. This is similar to Netflix's "Because you watched [movie X]" bar. Content-based filtering requires both user and item metadata (movie genre, actors, director, etc).
 
 Here is an example:
+
 ![alt text](image.png)
 
 You can see that many of the recommendations have some form of the word "dance" in them.
@@ -38,3 +39,32 @@ The recommendations have changed, becoming more attuned to the likes and dislike
 
 
 In this project, I will be using a dataset of 5,000 movies from TMBD, linked <a href = "https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata"> here </a> .
+The first csv contains the following information:
+- budget, the budget of the movie
+- genres, a list of genres corresponding to the movie
+- homepage
+- id
+- keywords
+- original_language
+- original_title
+- overview
+- popularity
+- production_companies
+- production_countries
+- release_date
+- revenue
+- runtime, the runtime of the move in minutes
+- spoken_languages
+- status
+- tagline
+- title
+- vote_average
+- vote_count
+- cast
+- crew
+
+The second csv file contains:
+- movie_id
+- title
+- cast
+- crew
